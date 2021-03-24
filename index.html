@@ -20,7 +20,7 @@
     <nav>
         <!-- Ordered -> Unordered List -->
         <ul>
-            <li>Elemento A</li>
+            <li><a href="textos.html">Página Textos</a></li>
             <li>Elemento C</li>
             <li>Elemento B</li>
         </ul>
@@ -70,7 +70,7 @@
         </article> 
         <article>
             <section>
-                <form>
+                <form method="POST" action="">
                     <section>
                         <label for="nome">Nome:</label> 
                         <input type="text" id="nome" name="nome"/>
@@ -96,7 +96,9 @@
                         <label for="atletico">Atlético</label>
                         <input type="radio" name="time" id="atletico">
                     </section>
-                    
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Cancelar">
+                    <!-- <button></button> usar só quando for botão e não formulário-->
                 </form>
             </section>
         </article>
