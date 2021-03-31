@@ -1,0 +1,45 @@
+body {
+    background-color: gainsboro;
+}
+
+header {
+    background-color: brown;
+    margin: 2px;
+    padding: 20px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    padding: 20px;    
+}
+
+header nav ul li:hover {
+    display: inline;
+    padding: 20px;  
+    background-color:whitesmoke;
+    color: turquoise;  
+    border-radius: 10px;
+}
+
+article {
+    background-color: white;
+    color: black;
+}
+
+footer {
+    background-color: chocolate;
+    border-top: 4px solid whitesmoke
+}
+
+.cruzeiro {
+    width: 200px;
+    height: 200px;
+}
+
+footer {
+    padding: 20px;
+}
